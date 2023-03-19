@@ -1,0 +1,348 @@
+AC_ALAW	app_conference.h	167
+AC_CONF	app_conference.h	162
+AC_G722	app_conference.h	180
+AC_G729A	app_conference.h	176
+AC_GSM	app_conference.h	170
+AC_SLINEAR	app_conference.h	179
+AC_SPEEX	app_conference.h	173
+AC_SUPPORTED_FORMATS	app_conference.h	182
+AC_ULAW	app_conference.h	164
+ASTERISK_FILE_VERSION	app_conference.c	/^ASTERISK_FILE_VERSION(__FILE__, REVISION)$/
+AST_CONF_BLOCK_SAMPLES	app_conference.h	102
+AST_CONF_BLOCK_SAMPLES	app_conference.h	104
+AST_CONF_BUFFER_SIZE	app_conference.h	141
+AST_CONF_BYTES_PER_SAMPLE	app_conference.h	108
+AST_CONF_FRAMES_PER_SECOND	app_conference.h	133
+AST_CONF_FRAMES_TO_IGNORE	app_conference.h	65
+AST_CONF_FRAME_DATA_SIZE	app_conference.h	112
+AST_CONF_FRAME_DATA_SIZE	app_conference.h	114
+AST_CONF_FRAME_INTERVAL	app_conference.h	87
+AST_CONF_MAX_QUEUE	app_conference.h	144
+AST_CONF_MAX_USERS	app_conference.h	188
+AST_CONF_PROB_CONTINUE	app_conference.h	69
+AST_CONF_PROB_START	app_conference.h	68
+AST_CONF_SAMPLE_RATE	app_conference.h	82
+AST_CONF_SAMPLE_RATE	app_conference.h	84
+AST_CONF_SAMPLE_SIZE	app_conference.h	86
+AST_CONF_TYPE_DEFAULT	app_conference.h	193
+AST_CONF_WAITFOR_LATENCY	app_conference.h	152
+AST_FORMAT_CONFERENCE	app_conference.h	119
+AST_FORMAT_CONFERENCE	app_conference.h	121
+AST_FORMAT_CONFERENCE	app_conference.h	125
+AST_FORMAT_CONFERENCE	app_conference.h	128
+AST_FORMAT_SLINEAR	app_conference.h	126
+AST_LIST_ENTRY	conference.h	/^	AST_LIST_ENTRY(ast_conference) free_list;$/
+AST_LIST_ENTRY	conf_frame.h	/^	AST_LIST_ENTRY(conf_frame) free_list;$/
+AST_LIST_ENTRY	member.h	/^	AST_LIST_ENTRY(ast_conf_member) free_list;$/
+AST_LIST_HEAD_NOLOCK	app_conference.h	/^AST_LIST_HEAD_NOLOCK(confFrameList, conf_frame) co/
+AST_LIST_HEAD_NOLOCK	member.h	/^	AST_LIST_HEAD_NOLOCK(, ast_frame) frames;$/
+AST_LIST_HEAD_NOLOCK	member.h	/^	AST_LIST_HEAD_NOLOCK(, ast_conf_member) head;$/
+AST_MODULE	app_conference.c	105
+AST_MODULE	app_conference.c	108
+AST_RWDLLIST_ENTRY	member.h	/^	AST_RWDLLIST_ENTRY(ast_conf_member) sfu_entry;$/
+AST_RWDLLIST_HEAD	conference.h	/^	AST_RWDLLIST_HEAD(sfu_list, ast_conf_member) sfu_/
+CONFERENCE_END_CHOICES	cli.c	752
+CONFERENCE_KICKCHANNEL_CHOICES	cli.c	189
+CONFERENCE_LISTENVOLUME_CHOICES	cli.c	657
+CONFERENCE_LIST_CHOICES	cli.c	136
+CONFERENCE_MUTECHANNEL_CHOICES	cli.c	277
+CONFERENCE_MUTECONFERENCE_CHOICES	cli.c	237
+CONFERENCE_PLAY_SOUND_CHOICES	cli.c	444
+CONFERENCE_RESTART_CHOICES	cli.c	100
+CONFERENCE_START_MOH_CHOICES	cli.c	531
+CONFERENCE_STOP_MOH_CHOICES	cli.c	570
+CONFERENCE_STOP_SOUNDS_CHOICES	cli.c	492
+CONFERENCE_TALKVOLUME_CHOICES	cli.c	610
+CONFERENCE_UNMUTECHANNEL_CHOICES	cli.c	381
+CONFERENCE_UNMUTECONFERENCE_CHOICES	cli.c	341
+CONFERENCE_VERSION_CHOICES	cli.c	63
+CONFERENCE_VIDEOSWITCH_CHOICES	cli.c	794
+CONFERENCE_VOLUME_CHOICES	cli.c	704
+CONF_NAME_LEN	conference.h	33
+CONT	app_conference.h	287
+EVENT_FLAG_CONF	app_conference.h	195
+FAILURE	cli.c	31
+FAILURE	cli.c	51
+HOLD	app_conference.h	286
+JOIN_NOTIFICATION	member.c	72
+JOIN_NOTIFICATION_LEN	member.c	73
+KICK	app_conference.h	283
+MEMBER_FLAGS_LEN	member.h	33
+MEMBER_TYPE_LEN	member.h	34
+NEWCLI_SWITCH	cli.c	/^#define NEWCLI_SWITCH(cli_command,cli_usage) \\$/
+NULL	member.c	1253
+PLAY	app_conference.h	284
+REVISION	app_conference.c	23
+SFU	app_conference.h	302
+SHOWUSAGE	cli.c	30
+SHOWUSAGE	cli.c	50
+SPEAKER_SCOREBOARD_FILE	app_conference.h	208
+SRC	app_conference.h	302
+STOP	app_conference.h	285
+SUCCESS	cli.c	29
+SUCCESS	cli.c	49
+TF_MAX_VARIATION	app_conference.h	155
+VIDEO_DESTINATIONS_MAX	member.c	67
+VIDEO_DESTINATION_LEN	member.c	69
+VIDEO_DESTINATION_PREFIX	member.c	68
+VIDEO_DESTINATION_SEPARATOR	member.c	70
+VSRC	app_conference.h	289
+_KONFERENCE_APP_CONFERENCE_H	app_conference.h	20
+_KONFERENCE_CLI_H	cli.h	20
+_KONFERENCE_CONFERENCE_H	conference.h	20
+_KONFERENCE_CONF_FRAME_H	conf_frame.h	20
+_KONFERENCE_FRAME_H	frame.h	20
+_KONFERENCE_MEMBER_H	member.h	20
+ac_formats	app_conference.h	183
+ac_video_mode	app_conference.h	302
+add_listentry	app_conference.h	/^static inline void add_listentry(ast_conf_listentr/
+add_member	conference.c	/^static void add_member(ast_conf_member *member, as/
+adjust_listen_volume_channel	conference.c	/^void adjust_listen_volume_channel(const char *chan/
+adjust_talk_volume_channel	conference.c	/^void adjust_talk_volume_channel(const char *channe/
+adjust_volume_conference	conference.c	/^void adjust_volume_conference(const char *conferen/
+app_konference_commands	cli.c	828
+append_all_streams	member.c	/^static int append_all_streams(struct ast_stream_to/
+append_source_streams	member.c	/^static int append_source_streams(struct ast_stream/
+argc	cli.c	25
+argstr	member.c	1264
+argument_delimiter	app_conference.h	205
+argv	cli.c	26
+ast_conf_frameq	app_conference.h	200
+ast_conf_frameq	member.h	47
+ast_conf_listentry	app_conference.h	256
+ast_conf_listentry	app_conference.h	260
+ast_conf_listheaders	app_conference.h	202
+ast_conf_listheaders	conference.h	39
+ast_conf_member	app_conference.h	198
+ast_conf_member	member.h	60
+ast_conf_soundq	app_conference.h	199
+ast_conf_soundq	member.h	40
+ast_conference	app_conference.h	197
+ast_conference	conference.h	49
+ast_format_alaw	conference.c	42
+ast_format_conference	app_conference.h	231
+ast_format_conference	app_conference.h	233
+ast_format_conference	conference.c	39
+ast_format_g722	conference.c	55
+ast_format_g729a	conference.c	51
+ast_format_gsm	conference.c	45
+ast_format_slinear	conference.c	54
+ast_format_speex	conference.c	48
+ast_format_ulaw	conference.c	40
+base	conference.c	67
+chan	member.c	1355
+channel_table	app_conference.h	216
+check_frequency	conference.c	/^static void check_frequency(void)$/
+cli_end	cli.c	756
+cli_kickchannel	cli.c	193
+cli_list	cli.c	140
+cli_listenvolume	cli.c	661
+cli_mutechannel	cli.c	281
+cli_muteconference	cli.c	241
+cli_play_sound	cli.c	448
+cli_restart	cli.c	104
+cli_start_moh	cli.c	535
+cli_stop_moh	cli.c	574
+cli_stop_sounds	cli.c	496
+cli_talkvolume	cli.c	614
+cli_unmutechannel	cli.c	385
+cli_unmuteconference	cli.c	345
+cli_version	cli.c	67
+cli_volume	cli.c	708
+conf_frame	app_conference.h	201
+conf_frame	conf_frame.h	32
+conference_count	conference.c	90
+conference_end	cli.c	/^int conference_end(int fd, int argc, char *argv[])/
+conference_end_summary	cli.c	753
+conference_end_usage	cli.c	747
+conference_exec	conference.c	/^static void conference_exec()$/
+conference_kickchannel	cli.c	/^int conference_kickchannel(int fd, int argc, char /
+conference_kickchannel_summary	cli.c	190
+conference_kickchannel_usage	cli.c	184
+conference_list	cli.c	/^int conference_list(int fd, int argc, char *argv[]/
+conference_list_summary	cli.c	137
+conference_list_usage	cli.c	131
+conference_listenvolume	cli.c	/^int conference_listenvolume(int fd, int argc, char/
+conference_listenvolume_summary	cli.c	658
+conference_listenvolume_usage	cli.c	652
+conference_mutechannel	cli.c	/^int conference_mutechannel(int fd, int argc, char /
+conference_mutechannel_summary	cli.c	278
+conference_mutechannel_usage	cli.c	272
+conference_muteconference	cli.c	/^int conference_muteconference(int fd, int argc, ch/
+conference_muteconference_summary	cli.c	238
+conference_muteconference_usage	cli.c	232
+conference_play_sound	cli.c	/^int conference_play_sound(int fd, int argc, char */
+conference_play_sound_summary	cli.c	445
+conference_play_sound_usage	cli.c	436
+conference_restart	cli.c	/^int conference_restart(int fd, int argc, char *arg/
+conference_restart_summary	cli.c	101
+conference_restart_usage	cli.c	95
+conference_start_moh	cli.c	/^int conference_start_moh(int fd, int argc, char *a/
+conference_start_moh_summary	cli.c	532
+conference_start_moh_usage	cli.c	526
+conference_stop_moh	cli.c	/^int conference_stop_moh(int fd, int argc, char *ar/
+conference_stop_moh_summary	cli.c	571
+conference_stop_moh_usage	cli.c	565
+conference_stop_sounds	cli.c	/^int conference_stop_sounds(int fd, int argc, char /
+conference_stop_sounds_summary	cli.c	493
+conference_stop_sounds_usage	cli.c	487
+conference_stream_topology_changed	member.c	/^static void conference_stream_topology_changed(ast/
+conference_table	app_conference.h	213
+conference_talkvolume	cli.c	/^int conference_talkvolume(int fd, int argc, char */
+conference_talkvolume_summary	cli.c	611
+conference_talkvolume_usage	cli.c	605
+conference_unmutechannel	cli.c	/^int conference_unmutechannel(int fd, int argc, cha/
+conference_unmutechannel_summary	cli.c	382
+conference_unmutechannel_usage	cli.c	376
+conference_unmuteconference	cli.c	/^int conference_unmuteconference(int fd, int argc, /
+conference_unmuteconference_summary	cli.c	342
+conference_unmuteconference_usage	cli.c	336
+conference_version	cli.c	/^int conference_version(int fd, int argc, char *arg/
+conference_version_summary	cli.c	64
+conference_version_usage	cli.c	58
+conference_videoswitch	cli.c	/^char *conference_videoswitch(struct ast_cli_entry /
+conference_videoswitch_command	cli.c	797
+conference_videoswitch_summary	cli.c	795
+conference_videoswitch_usage	cli.c	789
+conference_volume	cli.c	/^int conference_volume(int fd, int argc, char *argv/
+conference_volume_summary	cli.c	705
+conference_volume_usage	cli.c	699
+conflist	conference.c	64
+cont_data	member.c	46
+cont_frame	app_conference.h	296
+cont_frame	member.c	55
+cont_frame	member.c	60
+convert_frame	frame.c	/^struct ast_frame* convert_frame(struct ast_trans_p/
+create_conf	conference.c	/^static ast_conference* create_conf(char* name, ast/
+create_conf_frame	frame.c	/^conf_frame* create_conf_frame(ast_conf_member* mem/
+create_member	member.c	/^ast_conf_member* create_member(struct ast_channel /
+create_mix_frame	frame.c	/^conf_frame* create_mix_frame(ast_conf_member* memb/
+create_silent_frame	frame.c	/^conf_frame *create_silent_frame(void)$/
+create_slinear_frame	frame.c	/^struct ast_frame* create_slinear_frame(struct ast_/
+dealloc_conference	conference.c	/^void dealloc_conference(void)$/
+delete_conf_frame	frame.c	/^conf_frame* delete_conf_frame(conf_frame* cf)$/
+delete_member	member.c	/^void delete_member(ast_conf_member* member)$/
+delete_silent_frame	frame.c	/^void delete_silent_frame(conf_frame *silent_conf_f/
+destroy_conf_listheaders	conference.c	/^static void destroy_conf_listheaders(void *obj)$/
+end_conference	conference.c	/^void end_conference(const char *name)$/
+fd	cli.c	27
+find_conf	conference.c	/^static ast_conference* find_conf(const char* name)/
+find_member	conference.c	/^ast_conf_member *find_member(const char *chan)$/
+flags	member.c	1369
+from_slinear	member.c	1493
+from_slinear	member.c	1495
+from_slinear	member.c	1497
+from_slinear	member.c	1499
+get_expirations	conference.c	/^static int get_expirations(void)$/
+get_incoming_frame	member.c	/^conf_frame* get_incoming_frame(ast_conf_member *me/
+get_next_soundframe	member.c	/^static struct ast_frame *get_next_soundframe(ast_c/
+get_outgoing_frame	member.c	/^struct ast_frame* get_outgoing_frame(ast_conf_memb/
+get_video_frame	member.c	/^struct ast_frame* get_video_frame(ast_conf_member*/
+hash	conference.c	/^int hash(const char *name)$/
+hold_data	member.c	45
+hold_frame	app_conference.h	295
+hold_frame	member.c	54
+hold_frame	member.c	59
+i	member.c	1371
+init_conference	conference.c	/^int init_conference(void)$/
+init_listheader	app_conference.h	/^static inline void init_listheader(ast_conf_listen/
+inqueue	conference.c	83
+is_video_destination	member.c	/^static int is_video_destination(const struct ast_s/
+is_video_source	member.c	/^static int is_video_source(const struct ast_stream/
+joinSFU_frame	member.c	75
+join_conference	conference.c	/^ast_conference* join_conference(ast_conf_member* m/
+kick_all	conference.c	/^void kick_all(void)$/
+kick_data	member.c	43
+kick_frame	app_conference.h	293
+kick_frame	member.c	52
+kick_frame	member.c	57
+kqueuefd	conference.c	82
+last_score_id	member.c	37
+list_all	conference.c	/^void list_all(int fd)$/
+list_conferences	conference.c	/^void list_conferences(int fd)$/
+list_members	conference.c	/^void list_members(int fd, const char *name)$/
+listenerBuffer	conference.h	93
+load_module	app_conference.c	/^static int load_module(void)$/
+lock	conference.h	42
+lock	member.c	1246
+lock	member.c	1247
+lock	member.c	1248
+lock	member.c	1250
+lock	member.h	49
+map_source_to_destinations	member.c	/^static void map_source_to_destinations(const char /
+member_exec	member.c	/^int member_exec(struct ast_channel* chan, void* da/
+member_process_outgoing_frames	member.c	/^void member_process_outgoing_frames(ast_conference/
+member_process_spoken_frames	member.c	/^void member_process_spoken_frames(ast_conference* /
+memberlistheader	conference.h	46
+mixAstFrame	conference.h	96
+mixConfFrame	conference.h	97
+mix_frames	frame.c	/^conf_frame* mix_frames(ast_conference* conf, conf_/
+mix_multiple_speakers	frame.c	/^conf_frame* mix_multiple_speakers($/
+mix_single_speaker	frame.c	/^conf_frame* mix_single_speaker(ast_conference* con/
+mix_slinear_frames	frame.c	/^static inline void mix_slinear_frames(char *dst, c/
+mix_slinear_frames	frame.c	/^static void mix_slinear_frames(char *dst, const ch/
+msgs	app_conference.h	282
+mute_conference	conference.c	/^void mute_conference(const char* confname)$/
+name	member.h	42
+next	app_conference.h	258
+next	member.h	44
+outqueue	conference.c	84
+play_sound_channel	conference.c	/^void play_sound_channel(const char *channel, char /
+prev	app_conference.h	259
+process_conference	conference.c	/^void process_conference(ast_conference *conf)$/
+process_incoming	member.c	/^static int process_incoming(ast_conf_member *membe/
+process_outgoing	member.c	/^static void process_outgoing(ast_conf_member *memb/
+queue_frame_for_listener	member.c	/^void queue_frame_for_listener($/
+queue_frame_for_speaker	member.c	/^void queue_frame_for_speaker($/
+queue_incoming_frame	member.c	/^void queue_incoming_frame(ast_conf_member* member,/
+queue_outgoing_frame	member.c	/^void queue_outgoing_frame(ast_conf_member* member,/
+queue_silent_frame	member.c	/^void queue_silent_frame($/
+queue_video_frame	member.c	/^void queue_video_frame(ast_conf_member* member, st/
+register_conference_cli	cli.c	/^void register_conference_cli(void)$/
+remove_conf	conference.c	/^void remove_conf(ast_conference **conf)$/
+remove_destination_streams	member.c	/^static int remove_destination_streams(struct ast_s/
+remove_listentry	app_conference.h	/^static inline void remove_listentry(ast_conf_liste/
+remove_member	conference.c	/^void remove_member(ast_conf_member* member, ast_co/
+revision	app_conference.c	26
+sfu_topologies_on_join	member.c	/^static void sfu_topologies_on_join(ast_conf_member/
+sfu_topologies_on_leave	member.c	/^static void sfu_topologies_on_leave(ast_conf_membe/
+speaker_scoreboard	app_conference.h	209
+speakerlistheader	conference.h	44
+spy_list	app_conference.h	203
+spy_list	member.h	54
+start_moh_channel	conference.c	/^void start_moh_channel(const char *channel)$/
+stop_data	member.c	44
+stop_frame	app_conference.h	294
+stop_frame	member.c	53
+stop_frame	member.c	58
+stop_moh_channel	conference.c	/^void stop_moh_channel(const char *channel)$/
+stop_sound_channel	conference.c	/^void stop_sound_channel(const char *channel)$/
+stream	member.h	43
+stream_map	member.h	193
+stringp	member.c	1270
+tf_base	conference.c	74
+tf_count	conference.c	71
+tf_expirations	conference.c	72
+tf_max_expirations	conference.c	73
+time_entered	member.c	1363
+timerfd	conference.c	79
+to_channel	member.h	192
+to_conference	member.h	190
+to_slinear	member.c	1481
+to_slinear	member.c	1483
+to_slinear	member.c	1485
+to_slinear	member.c	1487
+token	member.c	1273
+topology	member.h	196
+unload_module	app_conference.c	/^static int unload_module(void)$/
+unmix_slinear_frame	frame.c	/^static inline void unmix_slinear_frame(char *dst, /
+unmix_slinear_frame	frame.c	/^static void unmix_slinear_frame(char *dst, const c/
+unmute_conference	conference.c	/^void unmute_conference(const char* confname)$/
+unregister_conference_cli	cli.c	/^void unregister_conference_cli(void)$/
+v8hi	frame.c	24
+vad_prob_continue	member.c	1258
+vad_prob_start	member.c	1257
+video_mode	conference.h	100
+vsrc_data	member.c	48
+vsrc_frame	app_conference.h	298
+vsrc_frame	member.c	62
